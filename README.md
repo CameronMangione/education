@@ -28,8 +28,9 @@ Provide a short and concise overview of the project. Mention the problem it solv
 
 ## Data
 
-- **Source:** https://nces.ed.gov/programs/digest/d23/tables/dt23_205.10.asp, https://www.edgap.org, https://www.dropbox.com/scl/fi/fkafjk8902sq8ptxh94r2/ccd_sch_029_1617_w_1a_11212017.csv?rlkey=gucrdz5f6e38bezz2y3yalxbw&e=2&dl=0
-- **Description:** Brief overview of the dataset features, size, and format
+- **Source:** https://nces.ed.gov/programs/digest/d23/tables/dt23_205.10.asp, https://www.edgap.org, https://www.dropbox.com/scl/fi/fkafjk8902sq8ptxh94r2/ccd_sch_029_1617_w_1a_11212017.csv?rlkey=gucrdz5f6e38bezz2y3yalxbw&e=2&dl=0. 
+- **Description:** The data was imported into our notebook, and then merged, cleaned, and imputated the data of the EdGap and NCES data to serve our purposes of analyzing socioeconomic factors against SAT scores. Data Prep document: https://github.com/CameronMangione/education/blob/refs/heads/main/code/Education.ipynb.
+Clean Data File (WIP): https://github.com/CameronMangione/education/blob/refs/heads/main/code/education_clean.csv.
 - **License:** (if applicable)
 
 ---

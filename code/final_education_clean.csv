@@ -1,4 +1,4 @@
-﻿id,rate_unemployment,percent_college,percent_married,median_income,average_act,percent_lunch,year,state,zip_code,school_type,school_level,Title_1_1-Yes,Title_1_2-No,Title_1_â,Title_1_â 
+﻿id,rate_unemployment,percent_college,percent_married,median_income,average_act,percent_lunch,year,state,zip_code,school_type,school_level,Title_1,Title_1_2-No,Title_1_â,Title_1_â 
 100001600143,0.117962466487936,0.445283018867925,0.346494762288477,42820.0,20.4334554334554,0.0669014084507042,2016-2017,DE,19804,Regular School,High,1.0,0.0,0.0,0.0
 100008000024,0.0639844886088221,0.66276459268762,0.767619047619048,89320.0,19.4981684981685,0.112412177985948,2016-2017,DE,19709,Regular School,High,1.0,0.0,0.0,0.0
 100008000225,0.0564599930723935,0.701864406779661,0.713090418353576,84140.0,19.5543345543346,0.096816114359974,2016-2017,DE,19709,Regular School,High,1.0,0.0,0.0,0.0

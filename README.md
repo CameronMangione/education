@@ -1,4 +1,4 @@
-# Education Project: Analyzing the relationship between socioeconomic factors SAT scores, as well as looking into private school 
+# Education Project: Analyzing the relationship between socioeconomic factors and ACT Scores (including Title I eligibility)
 
 > The purpose of the Education project is to perform work using the data science methodology to answer the question of whether school performance is predicted by socioeconomic factors. Additionally, we will analyze if a school's Title I elegiblity status has an impact on ACT scores.
 
@@ -19,10 +19,10 @@ Using exploratory data analysis methods and statistical regression models, we fo
 ## Project Structure
 
 ```
-├── data/                 # Raw and processed data
-├── code/                 # Jupyter notebooks and Python scripts
-├── reports/              # Generated reports and visualizations
-├── requirements.txt      # Dependencies
+├── data/                 # Raw and processed data Notebook https://nces.ed.gov/programs/digest/d23/tables/dt23_205.10.asp, https://www.edgap.org, https://nces.ed.gov/ccd/elsi/tableGenerator.aspx
+├── code/                 # Jupyter notebooks and Python scripts (https://github.com/CameronMangione/education/blob/main/code/Education%20Project_Cameron%20Mangione_Final.ipynb)
+├── reports/              # Generated reports and visualizations (https://github.com/CameronMangione/education/blob/main/reports/Education%20Project%20Report.docx)
+├── requirements.txt      # Dependencies (https://github.com/CameronMangione/education/blob/main/requirements.txt)
 └── README.md             # Project documentation
 ```
 

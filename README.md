@@ -11,7 +11,7 @@ Using exploratory data analysis methods and statistical regression models, we fo
 
 
 - **Objective:** Answer the question of whether school performance is predicted by socioeconomic factors.
-- **Domain:** (Education
+- **Domain:** Education
 - **Key Techniques:** Regrerssion, Exploratory Data Analysis.
 
 ---
@@ -19,7 +19,7 @@ Using exploratory data analysis methods and statistical regression models, we fo
 ## Project Structure
 
 ```
-├── data/                 # Raw and processed data Notebook https://nces.ed.gov/programs/digest/d23/tables/dt23_205.10.asp, https://www.edgap.org, https://nces.ed.gov/ccd/elsi/tableGenerator.aspx
+├── data/                 # Raw and processed data Notebook from NCEI, ELSI, and EdGap.  https://nces.ed.gov/programs/digest/d23/tables/dt23_205.10.asp, https://www.edgap.org, https://nces.ed.gov/ccd/elsi/tableGenerator.aspx
 ├── code/                 # Jupyter notebooks and Python scripts (https://github.com/CameronMangione/education/blob/main/code/Education%20Project_Cameron%20Mangione_Final.ipynb)
 ├── reports/              # Generated reports and visualizations (https://github.com/CameronMangione/education/blob/main/reports/Education%20Project%20Report.docx)
 ├── requirements.txt      # Dependencies (https://github.com/CameronMangione/education/blob/main/requirements.txt)
@@ -30,9 +30,8 @@ Using exploratory data analysis methods and statistical regression models, we fo
 
 ## Data
 
-- **Source:** https://nces.ed.gov/programs/digest/d23/tables/dt23_205.10.asp, https://www.edgap.org, https://nces.ed.gov/ccd/elsi/tableGenerator.aspx
-- **Description:** The data was imported into our notebook, and then merged, cleaned, and imputated the data of the EdGap and NCES data to serve our purposes of analyzing socioeconomic factors against SAT scores. Data Prep document: https://github.com/CameronMangione/education/blob/refs/heads/main/code/Education.ipynb.
-Clean Data File (WIP): https://github.com/CameronMangione/education/blob/refs/heads/main/code/education_clean.csv.
+- **Source:**: We pulled data from EdGap.org, an organization that tracks average high school SAT and ACT scores, median household income, and other socioeconomic indicators (edgap.org), as well as the National Center for Education Statistics (NCES). Our NCES data also included information from the Elementary and secondary information system(ELSI), which is part of the NCEI. ELSI was mainly used to generate tables for our Title I data.  https://nces.ed.gov/programs/digest/d23/tables/dt23_205.10.asp, https://www.edgap.org, https://nces.ed.gov/ccd/elsi/tableGenerator.aspx
+- **Description:** The data was imported into our notebook, and then merged, cleaned, and imputated the data of the EdGap and NCES data to serve our purposes of analyzing socioeconomic factors against SAT scores. We cleaned the data by merging our EdGap datasets with our NCEI data using an NCESSCH ID as a connecting variable between our three data frames. We cleaned our N/A data using an iterative imputer and converted our categorical Title I data to a numerical value to filter out N/A data in the imputer. Some ACT data required adjustments to its parameters because the minimum and maximum ACT scores fell below the range of 0 to 36. Data Prep document: https://github.com/CameronMangione/education/blob/refs/heads/main/code/Education.ipynb.
 - **License:** MIT License
 
 Copyright (c) 2025 CameronMangione
